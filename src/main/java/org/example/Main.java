@@ -9,6 +9,8 @@ import org.apache.logging.log4j.Logger;
 import org.example.PeselValidator;
 import org.example.Student;
 import org.example.StudentComparator;
+import lombok.AllArgsConstructor;
+
 
 public class Main {
     private static Logger myLogger= LogManager.getLogger(Main.class.getName());
